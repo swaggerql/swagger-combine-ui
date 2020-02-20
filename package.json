@@ -1,0 +1,42 @@
+{
+  "name": "swagger-combine-ui",
+  "version": "0.1.0",
+  "description": "Combines multiple Swagger schemas into one site",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "cp -f index.html node_modules/swagger-ui-dist/index.html",
+    "start": "node index.js",
+    "dev": "npm run prestart; $(npm bin)/nodemon -e js,json,yaml index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swaggerql/swagger-combine-ui.git"
+  },
+  "author": {
+    "name": "Pavlo Bashynskyi",
+    "web": "https://github.com/levonet"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swaggerql/swagger-combine-ui/issues"
+  },
+  "homepage": "https://github.com/swaggerql/swagger-combine-ui#readme",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "@koa/router": "^8.0.8",
+    "koa-static": "^5.0.0",
+    "swagger-combine": "^1.0.0",
+    "swagger-ui-dist": "^3.25.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "files": [
+    "lib/*",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "swagger.yaml"
+  ]
+}

@@ -1,0 +1,27 @@
+_version: &version 2.0.0
+_pet_api_url: &pet-api-url https://petstore.swagger.io/v2/swagger.json
+_store_api_url: &store-api-url https://petstore.swagger.io/v2/swagger.json
+_user_api_url: &user-api-url https://petstore.swagger.io/v2/swagger.json
+
+swagger: "2.0"
+info:
+  title: Combined Swagger Petstore
+  version: *version
+  description: This is a sample example of combined multiple Swagger schemas into one site.
+apis:
+- url: *pet-api-url
+  paths:
+    include:
+    - /pet/{petId}.get
+    - /pet/findByStatus.get
+- url: *store-api-url
+  paths:
+    include:
+    - /store/inventory.get
+    - /store/order/{orderId}.get
+- url: *user-api-url
+  paths:
+    include:
+    - /user/{username}.get
+    - /user/login
+    - /user/logout
