@@ -23,8 +23,9 @@
   },
   "homepage": "https://github.com/swaggerql/swagger-combine-ui#readme",
   "dependencies": {
-    "koa": "^2.11.0",
     "@koa/router": "^8.0.8",
+    "api-spec-converter": "^2.11.0",
+    "koa": "^2.11.0",
     "koa-static": "^5.0.0",
     "swagger-combine": "^1.0.0",
     "swagger-ui-dist": "^3.25.0"
