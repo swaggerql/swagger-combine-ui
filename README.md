@@ -1,4 +1,5 @@
 # Swagger Combine UI
+[![Build Status](https://travis-ci.org/swaggerql/swagger-combine-ui.svg?branch=master)](https://travis-ci.org/swaggerql/swagger-combine-ui)
 
 The service is used to combine the documentation of various services and display it behind the balancer.
 
