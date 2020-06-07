@@ -37,6 +37,7 @@
     "documentation"
   ],
   "dependencies": {
+    "@apidevtools/json-schema-ref-parser": "^9.0.1",
     "@koa/router": "^8.0.8",
     "api-spec-converter": "^2.11.0",
     "koa": "^2.11.0",
