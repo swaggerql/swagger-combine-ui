@@ -1,5 +1,6 @@
 # Swagger Combine UI
-[![Build Status](https://travis-ci.org/swaggerql/swagger-combine-ui.svg?branch=master)](https://travis-ci.org/swaggerql/swagger-combine-ui)
+[![Build Status](https://github.com/swaggerql/swagger-combine-ui/actions/workflows/build.yml/badge.svg)](https://github.com/swaggerql/swagger-combine-ui/actions/workflows/build.yml)
+[![CodeQL](https://github.com/swaggerql/swagger-combine-ui/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/swaggerql/swagger-combine-ui/actions/workflows/codeql-analysis.yml)
 
 The service is used to combine the documentation of various services and display it.
 
