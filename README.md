@@ -1,6 +1,7 @@
 # Swagger Combine UI
 [![Build Status](https://github.com/swaggerql/swagger-combine-ui/actions/workflows/build.yml/badge.svg)](https://github.com/swaggerql/swagger-combine-ui/actions/workflows/build.yml)
 [![CodeQL](https://github.com/swaggerql/swagger-combine-ui/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/swaggerql/swagger-combine-ui/actions/workflows/codeql-analysis.yml)
+[![Docker swagger-combine-ui](https://img.shields.io/badge/docker-swagger--combine--ui-green)](https://hub.docker.com/r/swaggerql/swagger-combine-ui)
 
 The service is used to combine the documentation of various services and display it.
 
